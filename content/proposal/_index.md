@@ -5,7 +5,4 @@ weight: 1
 ---
 
 
-Welcome to GEOVID! 
 
-We may upload a link to our final product site in the near future.  
-Stay tuned!
