@@ -5,7 +5,7 @@ description = "Whisper is a minimal documentation theme built for Hugo. The desi
 homepage = "https://github.com/zerostatic/hugo-whisper-theme"
 tags = ["documentation","responsive","minimal","clean","bootstrap","zerostatic"]
 features = ["docs"]
-min_version = "0.74.3"
+min_version = "0.54.0"
 
 [author]
   name = "Robert Austin"
