@@ -18,11 +18,11 @@
   </url>
   
   <url>
-    <loc>/proposal/problem-motivation/</loc>
+    <loc>/deliverables/application/</loc>
   </url>
   
   <url>
-    <loc>/deliverables/research-paper/</loc>
+    <loc>/proposal/problem-motivation/</loc>
   </url>
   
   <url>
@@ -31,17 +31,26 @@
   </url>
   
   <url>
+    <loc>/deliverables/research-paper/</loc>
+  </url>
+  
+  <url>
     <loc>/proposal/dataset/</loc>
     <lastmod>2019-02-11T19:27:37+10:00</lastmod>
   </url>
   
   <url>
-    <loc>/deliverables/video/</loc>
+    <loc>/deliverables/project-poster/</loc>
+    <lastmod>2019-02-11T19:27:37+10:00</lastmod>
   </url>
   
   <url>
     <loc>/proposal/data-prep-and-analysis/</loc>
     <lastmod>2019-02-11T19:27:37+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/deliverables/video/</loc>
   </url>
   
   <url>
@@ -60,11 +69,6 @@
   
   <url>
     <loc>/proposal/milestone/</loc>
-    <lastmod>2019-02-11T19:27:37+10:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/deliverables/project-poster/</loc>
     <lastmod>2019-02-11T19:27:37+10:00</lastmod>
   </url>
   

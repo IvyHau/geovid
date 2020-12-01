@@ -2,7 +2,7 @@
 title: 'Research Paper'
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 draft: false
-weight: 2
+weight: 3
 summary: Syntax highlighting and menus can be configured via `config.toml`.
 ---
 

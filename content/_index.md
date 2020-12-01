@@ -14,3 +14,7 @@ author:
 ---
 
 Welcome to GEOVID!
+
+Meet the Team!
+
+![](/./_index_files/2.jpg)
