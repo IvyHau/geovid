@@ -29,7 +29,7 @@
       </a>
     </li>
     
-    <li class="menu-item-proposal active">
+    <li class="menu-item-proposal">
       <a href="/proposal/">
         <span>Proposal</span>
       </a>
@@ -62,7 +62,7 @@
       </a>
     </li>
     
-    <li class="menu-item-proposal active">
+    <li class="menu-item-proposal">
       <a href="/proposal/">
         <span>Proposal</span>
       </a>
@@ -89,59 +89,9 @@
     
     
     
-    
-    
 
     
-    <div class="container pt-2 pt-md-6 pb-3 pb-md-6">
-      <div class="row">
-        <div class="col-12 col-md-3 mb-3">
-          <div class="sidebar">
-            
-<div class="docs-menu">
-  <a href = "/proposal">
-  <h4>Proposal</h4></a>
-  <ul>
     
-    <li class="">
-      <a href = "#Project%20Motivation">Project Motivation </a>
-    </li>
-    
-    <li class="">
-      <a href = "#Objectives">Objectives </a>
-    </li>
-    
-    <li class="">
-      <a href = "#Data%20Source%28s%29">Data Source(s) </a>
-    </li>
-    
-    <li class="">
-      <a href = "#Data%20Preparation%20%26%20Analysis">Data Preparation &amp; Analysis </a>
-    </li>
-    
-    <li class="">
-      <a href = "#Literature%20Review">Literature Review </a>
-    </li>
-    
-    <li class="">
-      <a href = "#Tools%20%26%20System%20Architecture">Tools &amp; System Architecture </a>
-    </li>
-    
-    <li class="">
-      <a href = "#Application%20Storyboard">Application Storyboard </a>
-    </li>
-    
-    <li class="">
-      <a href = "#Milestones">Milestones </a>
-    </li>
-    
-  </ul>
-</div>
-
-          </div>
-        </div>
-        <div class="col-12 col-md-9">
-          
 
 
 
@@ -150,7 +100,7 @@
   <h2>Project Motivation</h2>
   <p>COVID-19 is an infectious disease caused by a new strain of coronavirus, which has now spread worldwide. Currently, there are no available vaccines for global use. Because of that, it is important to study the spread of COVID-19, understand where, when, and how it occurred by studying the spatio-temporal patterns of confirmed cases.</p>
 <p>This project aims to provide a web-based geospatial application to identify areas with COVID-19 and the factors affecting the spread. Most of the geospatial applications on COVID-19 are limited to visualizing proportional point patterns. However, our group is also concerned about the factors affecting the spread of COVID-19.</p>
-<p>Due to the limited number of COVID-19 data Singapore has to offer, our group has decided to focus on China as the choice of study area as it offers more data as compared to Singapore. These data acquired from dataverse.harvard.edu include number of confirmed cases, recovered cases, and death cases for each cities, which will be relevant to the analysis of the spatio-temporal patterns.</p>
+<p>Due to the limited number of COVID-19 data Singapore has to offer, our group has decided to focus on Hong Kong as the choice of study area as it offers more data as compared to Singapore. These data acquired from data.gov.hk include number of cases confirmed(active and/or discharged), location of quarantined areas (governmental and/or homes), which will be relevant to the analysis of the spatio-temporal patterns.</p>
 <p>The web-enabled geospatial analytical tool is developed to allow users to view the spread of COVID-19, as well as how to better plan for further spread and its mitigation.</p>
 
   <br/>
@@ -162,7 +112,7 @@
   <p>Our group will focus on the following objectives:</p>
 <ol>
 <li>
-<p>Visualize density of the COVID-19 cases in China by performing relevant exploratory data analysis.</p>
+<p>Visualize density of the COVID-19 cases in Hong Kong by performing relevant exploratory data analysis.</p>
 </li>
 <li>
 <p>Conduct global and local spatial analysis to find out spatial correlation patterns and influencing factors.</p>
@@ -171,7 +121,7 @@
 <p>Create a web-based interface through R Shiny with relevant filters to display relevant data analysis.</p>
 </li>
 <li>
-<p>Evaluate results based on the findings to understand the spread in China, and provide recommendations to further mitigate the situation.</p>
+<p>Evaluate results based on the findings to understand the spread in Hong Kong, and provide recommendations to further mitigate the situation.</p>
 </li>
 </ol>
 
@@ -181,37 +131,7 @@
 <div id = "Data Source(s)">
   <br/>
   <h2>Data Source(s)</h2>
-  <table>
-<thead>
-<tr>
-<th>Name</th>
-<th>Format</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>city_confirmed</td>
-<td>.csv</td>
-<td>Confirmed cases in china by cities from month January to September</td>
-</tr>
-<tr>
-<td>city_death</td>
-<td>.csv</td>
-<td>Death cases in china by cities from month January to September</td>
-</tr>
-<tr>
-<td>city_recovered</td>
-<td>.csv</td>
-<td>Recovered cases in China by cities from month January to September</td>
-</tr>
-<tr>
-<td>china_city</td>
-<td>.shp .cpg, .dbf, .prj, .shx</td>
-<td>Shapefile of China cities</td>
-</tr>
-</tbody>
-</table>
+  <p><img src="datasource.png" alt="datasource"></p>
 
   <br/>
 </div>
@@ -220,7 +140,7 @@
   <br/>
   <h2>Data Preparation &amp; Analysis</h2>
   <h3 id="data-collection">Data Collection</h3>
-<p>Data of the cases of coronavirus in China, number of confirmed cases, recovered cases, and death cases for each cities are obtained from dataverse.harvard.edu, a havard open source database.</p>
+<p>Data of the cases of coronavirus in Hong Kong, the quarantine building list, means of transport, population, as well as testing, are obtained from data.gov.hk, the Hong Kong government’s open data source.</p>
 <h3 id="data-cleaning-and-wrangling">Data Cleaning and Wrangling</h3>
 <p>The data cases has to be clean to extract only data from January to September. Duplicates will also need to be checked to prevent skewed data analysis. Data Standardization will then ensure the same data types to ensure a fairer comparison and analysis.</p>
 <h3 id="data-transformation">Data Transformation</h3>
@@ -230,10 +150,8 @@
 <h4 id="globallocal-morans-i">Global/Local Moran&rsquo;s I</h4>
 <p>Global Moran I will be used to analyse the autocorrelation of objects with the global area.</p>
 <p>Local Moran&rsquo;s I will be used to analysed the autocorrelation on the local level.</p>
-<h4 id="lisa">LISA</h4>
-<p>LISA will be used to visualise the high-high clustering in China to determine the positive significant clusters</p>
-<h4 id="morans-i-scatterplot">Moran&rsquo;s I Scatterplot</h4>
-<p>The Moran&rsquo;s I scatterplot will provide users a rough visualisation of the areas and how clustered they are base on which quadrant they lie on.</p>
+<h4 id="getis-and-ords-g-statistics">Getis and Ord&rsquo;s G-Statistics</h4>
+<p>Getis and Ord&rsquo;s G-Statistics will be used to analyse the statistically significant hot and cold spots.</p>
 
   <br/>
 </div>
@@ -311,9 +229,6 @@
 
 
 
-        </div>
-      </div>
-    </div>
     
   </div>
 

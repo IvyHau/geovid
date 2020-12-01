@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>About Us on GEOVID</title>
+    <title>Geovid: Spatial Analysis &amp; GIS of Coronovirus-2019 in China on GEOVID</title>
     <link>/</link>
-    <description>Recent content in About Us on GEOVID</description>
+    <description>Recent content in Geovid: Spatial Analysis &amp; GIS of Coronovirus-2019 in China on GEOVID</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 28 Nov 2018 15:14:39 +1000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Install Hugo</title>
-      <link>/docs/install-hugo/</link>
+      <title>Github</title>
+      <link>/deliverables/github/</link>
       <pubDate>Mon, 11 Feb 2019 19:27:37 +1000</pubDate>
       
-      <guid>/docs/install-hugo/</guid>
-      <description>To use this theme you will need to have Hugo installed. If you don&amp;rsquo;t already have Hugo installed please follow the official installation guide
-Check Hugo Version This theme uses Hugo Pipes to compile SCSS and minify assets.</description>
+      <guid>/deliverables/github/</guid>
+      <description>Click here to access our github.</description>
     </item>
     
     <item>
@@ -27,13 +26,12 @@ Check Hugo Version This theme uses Hugo Pipes to compile SCSS and minify assets.
     </item>
     
     <item>
-      <title>Install Theme</title>
-      <link>/docs/install-theme/</link>
-      <pubDate>Mon, 11 Feb 2019 19:27:37 +1000</pubDate>
+      <title>Research Paper</title>
+      <link>/deliverables/research-paper/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/docs/install-theme/</guid>
-      <description>Create a new Hugo site hugo new site mynewsite This will create a fresh Hugo site in the folder mynewsite.
-Install theme Copy or git clone this theme into the sites themes folder mynewsite/themes</description>
+      <guid>/deliverables/research-paper/</guid>
+      <description>Syntax highlighting and menus can be configured via &lt;code&gt;config.toml&lt;/code&gt;.</description>
     </item>
     
     <item>
@@ -43,17 +41,8 @@ Install theme Copy or git clone this theme into the sites themes folder mynewsit
       
       <guid>/proposal/objectives/</guid>
       <description>Our group will focus on the following objectives:
-  Visualize density of the COVID-19 cases in Hong Kong by performing relevant exploratory data analysis.
+  Visualize density of the COVID-19 cases in China by performing relevant exploratory data analysis.
   Conduct global and local spatial analysis to find out spatial correlation patterns and influencing factors.</description>
-    </item>
-    
-    <item>
-      <title>Configuration</title>
-      <link>/docs/configure/</link>
-      <pubDate>Mon, 11 Feb 2019 19:30:08 +1000</pubDate>
-      
-      <guid>/docs/configure/</guid>
-      <description>Syntax highlighting and menus can be configured via &lt;code&gt;config.toml&lt;/code&gt;.</description>
     </item>
     
     <item>
@@ -62,43 +51,15 @@ Install theme Copy or git clone this theme into the sites themes folder mynewsit
       <pubDate>Mon, 11 Feb 2019 19:27:37 +1000</pubDate>
       
       <guid>/proposal/dataset/</guid>
-      <description></description>
+      <description>Name Format Description     city_confirmed .csv Confirmed cases in china by cities from month January to September   city_death .csv Death cases in china by cities from month January to September   city_recovered .</description>
     </item>
     
     <item>
-      <title>Specimen</title>
-      <link>/docs/specimen/</link>
-      <pubDate>Mon, 11 Feb 2019 19:27:37 +1000</pubDate>
-      
-      <guid>/docs/specimen/</guid>
-      <description>Markdown Test Page  Headings Paragraphs Blockquotes Lists Horizontal rule Table Code Inline elements   Headings Heading one Sint sit cillum pariatur eiusmod nulla pariatur ipsum. Sit laborum anim qui mollit tempor pariatur nisi minim dolor.</description>
-    </item>
-    
-    <item>
-      <title>Hugo Whisper</title>
-      <link>/docs/example/</link>
-      <pubDate>Mon, 11 Feb 2019 19:27:37 +1000</pubDate>
-      
-      <guid>/docs/example/</guid>
-      <description>&lt;p&gt;Whisper is a minimal documentation theme built for Hugo. The design &amp;amp; functionality is intentionally minimal.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Literature Review</title>
-      <link>/proposal/literature-review/</link>
+      <title>Video</title>
+      <link>/deliverables/video/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/proposal/literature-review/</guid>
-      <description>Spatial statistics and influencing factors of the novel coronavirus Taken from: (By: Yongzhu Xiong, Yunpeng Wang, Feng Chen, Mingyong Zhu)
-Yongzhu Xiong, Yunpeng Wang, Feng Chen et al. Spatial statistics and influencing factors of the novel coronavirus pneumonia 2019 epidemic in Hubei Province, China, 06 April 2020, PREPRINT (Version 2) available at Research Square [+https://doi.</description>
-    </item>
-    
-    <item>
-      <title>Application Storyboard</title>
-      <link>/proposal/storyboard/</link>
-      <pubDate>Mon, 11 Feb 2019 19:27:37 +1000</pubDate>
-      
-      <guid>/proposal/storyboard/</guid>
+      <guid>/deliverables/video/</guid>
       <description></description>
     </item>
     
@@ -108,8 +69,17 @@ Yongzhu Xiong, Yunpeng Wang, Feng Chen et al. Spatial statistics and influencing
       <pubDate>Mon, 11 Feb 2019 19:27:37 +1000</pubDate>
       
       <guid>/proposal/data-prep-and-analysis/</guid>
-      <description>Data Preparation
- Data Collection  Data of the cases of coronavirus in Hong Kong, the quarantine building list, means of transport, population, as well as testing, are obtained from data.</description>
+      <description>Data Collection Data of the cases of coronavirus in China, number of confirmed cases, recovered cases, and death cases for each cities are obtained from dataverse.harvard.edu, a havard open source database.</description>
+    </item>
+    
+    <item>
+      <title>Literature Review</title>
+      <link>/proposal/literature-review/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/proposal/literature-review/</guid>
+      <description>Spatial statistics and influencing factors of the novel coronavirus Case study reference link:
+Yongzhu Xiong, Yunpeng Wang, Feng Chen et al. Spatial statistics and influencing factors of the novel coronavirus pneumonia 2019 epidemic in Hubei Province, China, 06 April 2020, PREPRINT (Version 2) available at Research Square [+https://doi.</description>
     </item>
     
     <item>
@@ -122,7 +92,16 @@ Yongzhu Xiong, Yunpeng Wang, Feng Chen et al. Spatial statistics and influencing
     </item>
     
     <item>
-      <title>Milestone</title>
+      <title>Application Storyboard</title>
+      <link>/proposal/storyboard/</link>
+      <pubDate>Mon, 11 Feb 2019 19:27:37 +1000</pubDate>
+      
+      <guid>/proposal/storyboard/</guid>
+      <description>The following attached below are the sample outlook of our application interface. We will make necessary changes along the way.</description>
+    </item>
+    
+    <item>
+      <title>Milestones</title>
       <link>/proposal/milestone/</link>
       <pubDate>Mon, 11 Feb 2019 19:27:37 +1000</pubDate>
       
@@ -131,40 +110,21 @@ Yongzhu Xiong, Yunpeng Wang, Feng Chen et al. Spatial statistics and influencing
     </item>
     
     <item>
-      <title>A Plain Markdown Post</title>
-      <link>/post/2016-12-30-hello-markdown/</link>
-      <pubDate>Fri, 30 Dec 2016 21:49:57 -0700</pubDate>
+      <title>Project Poster</title>
+      <link>/deliverables/project-poster/</link>
+      <pubDate>Mon, 11 Feb 2019 19:27:37 +1000</pubDate>
       
-      <guid>/post/2016-12-30-hello-markdown/</guid>
-      <description>This is a post written in plain Markdown (*.md) instead of R Markdown (*.Rmd). The major differences are:
- You cannot run any R code in a plain Markdown document, whereas in an R Markdown document, you can embed R code chunks (```{r}); A plain Markdown post is rendered through Blackfriday, and an R Markdown document is compiled by rmarkdown and Pandoc.</description>
+      <guid>/deliverables/project-poster/</guid>
+      <description>Click here to access the project poster.</description>
     </item>
     
     <item>
-      <title>About</title>
+      <title></title>
       <link>/about/</link>
       <pubDate>Thu, 05 May 2016 21:48:51 -0700</pubDate>
       
       <guid>/about/</guid>
-      <description>This is a &amp;ldquo;hello world&amp;rdquo; example website for the blogdown package. The theme was forked from @jrutheiser/hugo-lithium-theme and modified by Yihui Xie.</description>
-    </item>
-    
-    <item>
-      <title>Hello R Markdown</title>
-      <link>/post/2015-07-23-r-rmarkdown/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      
-      <guid>/post/2015-07-23-r-rmarkdown/</guid>
-      <description>R MarkdownThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.</description>
-    </item>
-    
-    <item>
-      <title>Lorem Ipsum</title>
-      <link>/post/2015-01-01-lorem-ipsum/</link>
-      <pubDate>Thu, 01 Jan 2015 13:09:13 -0600</pubDate>
-      
-      <guid>/post/2015-01-01-lorem-ipsum/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</description>
+      <description></description>
     </item>
     
   </channel>
