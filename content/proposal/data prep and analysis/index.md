@@ -7,7 +7,7 @@ weight: 5
 
 ### Data Collection
 
-Data of the cases of coronavirus in Hong Kong, the quarantine building list, means of transport, population, as well as testing, are obtained from data.gov.hk, the Hong Kong government’s open data source.
+Data of the cases of coronavirus in China, number of confirmed cases, recovered cases, and death cases for each cities are obtained from dataverse.harvard.edu, a havard open source database.
 
 ### Data Cleaning and Wrangling
 
@@ -28,7 +28,11 @@ Global Moran I will be used to analyse the autocorrelation of objects with the g
 
 Local Moran's I will be used to analysed the autocorrelation on the local level.
 
-#### Getis and Ord's G-Statistics
+#### LISA
 
-Getis and Ord's G-Statistics will be used to analyse the statistically significant hot and cold spots.
+LISA will be used to visualise the high-high clustering in China to determine the positive significant clusters
+
+#### Moran's I Scatterplot
+
+The Moran's I scatterplot will provide users a rough visualisation of the areas and how clustered they are base on which quadrant they lie on.
 
